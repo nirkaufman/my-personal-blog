@@ -1,6 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
+import profile from './profile.jpg'
+
 
 import { rhythm } from '../utils/typography'
 
@@ -17,14 +19,14 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+            <img
+              src={profile}
+              alt={`Nir Kaufman`}
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
+                width: rhythm(2),
+                height: rhythm(2),
               }}
             />
             <p>
@@ -32,7 +34,7 @@ function Bio() {
               Francisco building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Follow me on Twitter
               </a>
             </p>
           </div>
