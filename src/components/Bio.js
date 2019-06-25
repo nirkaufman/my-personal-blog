@@ -44,6 +44,7 @@ function Bio() {
   )
 }
 
+
 const bioQuery = graphql`
   query BioQuery {    
     site {
