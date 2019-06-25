@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `NGNIR.LIFE`,
+    title: `NIR.LIFE`,
     author: `Nir Kaufman`,
     description: `My personal blog`,
-    siteUrl: `https://www.ngnir.life/`,
+    siteUrl: `https://www.nir.life/`,
     social: {
       twitter: `nirkaufman`,
     },
